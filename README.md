@@ -19,3 +19,13 @@
 
     ```bash
     deactivate
+
+
+5. ngrok public url
+https://<id>.ngrok-free.app
+
+6. To start mcp server and ngrok
+cd .\mcp-bearer-token\
+python mcp_starter.py
+ngrok http 8086
+
