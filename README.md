@@ -8,24 +8,16 @@
 2. Install Dependencies:
 
     ```bash
+    cd mcp-starter
     pip install -r requirements.txt
 
-3. Update dependencies:
-
-    ```bash
-    pip freeze > requirements.txt
-
-4. Deactivate venv
-
-    ```bash
-    deactivate
-
-
-5. ngrok public url
+3. ngrok public url
 https://<id>.ngrok-free.app
 
-6. To start mcp server and ngrok
+4. To start mcp server and ngrok
 cd .\mcp-bearer-token\
 python mcp_starter.py
 ngrok http 8086
+
+5. Connect the mcp server in whatsapp puch ai chatbot and use the tools
 
